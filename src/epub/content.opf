@@ -30,20 +30,37 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Italian</dc:title>
 		<meta property="file-as" refines="#title">Italian, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, The Confessional of the Black Penitents: A Romancee</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, The Confessional of the Black Penitents: A Romance</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Italian</dc:title>
+		<meta property="file-as" refines="#fulltitle">Italian, The</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
+		<dc:subject id="subject-1">Inquisition</dc:subject>
+		<dc:subject id="subject-2">Kidnapping</dc:subject>
+		<dc:subject id="subject-3">Monks</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85066549</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
+		<meta property="term" refines="#subject-2">sh85072244</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85086875</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:abstract">ABSTRACT</meta>
 		<dc:description>
 			DESCRIPTION
 		</dc:description>
 		<dc:language>en-GB</dc:language>
+		<!-- Vol. 1 -->
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210275</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/bim_eighteenth-century_the-italian-or-the-conf_radcliffe-ann-ward_1797_1_0</dc:source>
+		<!-- Vol. 2 -->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20240703</dc:source>
+		<dc:source>https://archive.org/details/bim_eighteenth-century_the-italian-or-the-conf_radcliffe-ann-ward_1797_2_0</dc:source>
+		<!-- Vol. 3 -->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20250925</dc:source>
+		<dc:source>https://archive.org/details/bim_eighteenth-century_the-italian-or-the-conf_radcliffe-ann-ward_1797_3_0</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Italian" rel="schema:sameAs"/>
@@ -52,25 +69,26 @@
 		<link href="https://github.com/standardebooks/ann-radcliffe_the-italian" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ann Radcliffe</dc:creator>
 		<meta property="file-as" refines="#author">Radcliffe, Ann</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Ann_Radcliffe" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79056784.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Johann Grund</dc:contributor>
+		<meta property="file-as" refines="#artist">Grund, Johann</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Delphine Lettau</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lettau, Delphine</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Distributed Proofreaders Canada</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders Canada</meta>
-		<link href="https://www.pgdpcanada.net/" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">John Routh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Routh, John</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-3">Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders Canada</meta>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-3" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
+		<meta property="schema:alternateName" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
