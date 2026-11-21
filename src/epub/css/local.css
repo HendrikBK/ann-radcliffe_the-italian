@@ -52,6 +52,79 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+/* Verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+/* Drama */
+table[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
+}
+
+[epub|type~="z3998:drama"] td{
+	padding: .5em;
+	vertical-align: top;
+}
+
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	-epub-hyphens: none;
+	text-align: right;
+	width: 20%;
+}
+
+[epub|type~="z3998:persona"]{
+	font-style: normal;
+	font-variant: all-small-caps;
+}
+
 /* Prologue */
 section#prologue{
 	margin-top: 20vh;
