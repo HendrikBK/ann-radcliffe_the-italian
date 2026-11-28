@@ -47,9 +47,11 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85086875</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<meta property="schema:abstract">ABSTRACT</meta>
+		<meta property="schema:abstract">The union of two young lovers is threatened by a scheming monk.</meta>
 		<dc:description>
-			DESCRIPTION
+			&lt;p&gt;Vincentio di Vivaldi, the only son and heir of the rich and powerful Marchese di Vivaldi, becomes infatuated with Ellena di Rosalba, a humble young woman from Naples. Desiring her hand in marriage, he seeks to win the affections of both her and her aunt, her guardian.&lt;/p&gt;
+			&lt;p&gt;Although he soon wins the approval of his desired bride, his parents strongly oppose the union, considering it beneath their station. Unable to control her son, the Marchesa instead conspires with a local monk to permanently separate the lovers, and hopefully maintain the dignity of their House.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Italian&lt;/i&gt; was the last novel published by &lt;a href="https://standardebooks.org/ebooks/ann-radcliffe"&gt;Ann Radcliffe&lt;/a&gt; during her lifetime. Already a respected author of Gothic fiction, here she again employs some of the tropes and concepts associated with the genre, including a “pure” heroine, dark buildings and wicked enemies. Although the novel itself received a mixed reception from critics, the antagonist, Father Schedoni, is considered by some reviewers to be a particular interesting and strong character.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Vol. 1 -->
